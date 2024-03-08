@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49E116042B9AEE1000470FAD /* butt_lifting_assistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E116032B9AEE1000470FAD /* butt_lifting_assistantApp.swift */; };
+		49E116062B9AEE1000470FAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E116052B9AEE1000470FAD /* ContentView.swift */; };
+		49E116082B9AEE1100470FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E116072B9AEE1100470FAD /* Assets.xcassets */; };
+		49E1160B2B9AEE1100470FAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E1160A2B9AEE1100470FAD /* Preview Assets.xcassets */; };
+		49E116162B9AEE1200470FAD /* butt_lifting_assistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E116152B9AEE1200470FAD /* butt_lifting_assistantTests.swift */; };
+		49E116202B9AEE1200470FAD /* butt_lifting_assistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E1161F2B9AEE1200470FAD /* butt_lifting_assistantUITests.swift */; };
+		49E116222B9AEE1200470FAD /* butt_lifting_assistantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E116212B9AEE1200470FAD /* butt_lifting_assistantUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49E116122B9AEE1200470FAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49E115F82B9AEE1000470FAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49E115FF2B9AEE1000470FAD;
+			remoteInfo = "butt-lifting-assistant";
+		};
+		49E1161C2B9AEE1200470FAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49E115F82B9AEE1000470FAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49E115FF2B9AEE1000470FAD;
+			remoteInfo = "butt-lifting-assistant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49E116002B9AEE1000470FAD /* butt-lifting-assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "butt-lifting-assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E116032B9AEE1000470FAD /* butt_lifting_assistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butt_lifting_assistantApp.swift; sourceTree = "<group>"; };
+		49E116052B9AEE1000470FAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49E116072B9AEE1100470FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49E1160A2B9AEE1100470FAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49E1160C2B9AEE1100470FAD /* butt_lifting_assistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = butt_lifting_assistant.entitlements; sourceTree = "<group>"; };
+		49E116112B9AEE1200470FAD /* butt-lifting-assistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "butt-lifting-assistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E116152B9AEE1200470FAD /* butt_lifting_assistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butt_lifting_assistantTests.swift; sourceTree = "<group>"; };
+		49E1161B2B9AEE1200470FAD /* butt-lifting-assistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "butt-lifting-assistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E1161F2B9AEE1200470FAD /* butt_lifting_assistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butt_lifting_assistantUITests.swift; sourceTree = "<group>"; };
+		49E116212B9AEE1200470FAD /* butt_lifting_assistantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butt_lifting_assistantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49E115FD2B9AEE1000470FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E1160E2B9AEE1200470FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E116182B9AEE1200470FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49E115F72B9AEE1000470FAD = {
+			isa = PBXGroup;
+			children = (
+				49E116022B9AEE1000470FAD /* butt-lifting-assistant */,
+				49E116142B9AEE1200470FAD /* butt-lifting-assistantTests */,
+				49E1161E2B9AEE1200470FAD /* butt-lifting-assistantUITests */,
+				49E116012B9AEE1000470FAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49E116012B9AEE1000470FAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49E116002B9AEE1000470FAD /* butt-lifting-assistant.app */,
+				49E116112B9AEE1200470FAD /* butt-lifting-assistantTests.xctest */,
+				49E1161B2B9AEE1200470FAD /* butt-lifting-assistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49E116022B9AEE1000470FAD /* butt-lifting-assistant */ = {
+			isa = PBXGroup;
+			children = (
+				49E116032B9AEE1000470FAD /* butt_lifting_assistantApp.swift */,
+				49E116052B9AEE1000470FAD /* ContentView.swift */,
+				49E116072B9AEE1100470FAD /* Assets.xcassets */,
+				49E1160C2B9AEE1100470FAD /* butt_lifting_assistant.entitlements */,
+				49E116092B9AEE1100470FAD /* Preview Content */,
+			);
+			path = "butt-lifting-assistant";
+			sourceTree = "<group>";
+		};
+		49E116092B9AEE1100470FAD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49E1160A2B9AEE1100470FAD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49E116142B9AEE1200470FAD /* butt-lifting-assistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				49E116152B9AEE1200470FAD /* butt_lifting_assistantTests.swift */,
+			);
+			path = "butt-lifting-assistantTests";
+			sourceTree = "<group>";
+		};
+		49E1161E2B9AEE1200470FAD /* butt-lifting-assistantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49E1161F2B9AEE1200470FAD /* butt_lifting_assistantUITests.swift */,
+				49E116212B9AEE1200470FAD /* butt_lifting_assistantUITestsLaunchTests.swift */,
+			);
+			path = "butt-lifting-assistantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49E115FF2B9AEE1000470FAD /* butt-lifting-assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E116252B9AEE1200470FAD /* Build configuration list for PBXNativeTarget "butt-lifting-assistant" */;
+			buildPhases = (
+				49E115FC2B9AEE1000470FAD /* Sources */,
+				49E115FD2B9AEE1000470FAD /* Frameworks */,
+				49E115FE2B9AEE1000470FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "butt-lifting-assistant";
+			productName = "butt-lifting-assistant";
+			productReference = 49E116002B9AEE1000470FAD /* butt-lifting-assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49E116102B9AEE1200470FAD /* butt-lifting-assistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E116282B9AEE1200470FAD /* Build configuration list for PBXNativeTarget "butt-lifting-assistantTests" */;
+			buildPhases = (
+				49E1160D2B9AEE1200470FAD /* Sources */,
+				49E1160E2B9AEE1200470FAD /* Frameworks */,
+				49E1160F2B9AEE1200470FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49E116132B9AEE1200470FAD /* PBXTargetDependency */,
+			);
+			name = "butt-lifting-assistantTests";
+			productName = "butt-lifting-assistantTests";
+			productReference = 49E116112B9AEE1200470FAD /* butt-lifting-assistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49E1161A2B9AEE1200470FAD /* butt-lifting-assistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E1162B2B9AEE1200470FAD /* Build configuration list for PBXNativeTarget "butt-lifting-assistantUITests" */;
+			buildPhases = (
+				49E116172B9AEE1200470FAD /* Sources */,
+				49E116182B9AEE1200470FAD /* Frameworks */,
+				49E116192B9AEE1200470FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49E1161D2B9AEE1200470FAD /* PBXTargetDependency */,
+			);
+			name = "butt-lifting-assistantUITests";
+			productName = "butt-lifting-assistantUITests";
+			productReference = 49E1161B2B9AEE1200470FAD /* butt-lifting-assistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49E115F82B9AEE1000470FAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					49E115FF2B9AEE1000470FAD = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					49E116102B9AEE1200470FAD = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 49E115FF2B9AEE1000470FAD;
+					};
+					49E1161A2B9AEE1200470FAD = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 49E115FF2B9AEE1000470FAD;
+					};
+				};
+			};
+			buildConfigurationList = 49E115FB2B9AEE1000470FAD /* Build configuration list for PBXProject "butt-lifting-assistant" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49E115F72B9AEE1000470FAD;
+			productRefGroup = 49E116012B9AEE1000470FAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49E115FF2B9AEE1000470FAD /* butt-lifting-assistant */,
+				49E116102B9AEE1200470FAD /* butt-lifting-assistantTests */,
+				49E1161A2B9AEE1200470FAD /* butt-lifting-assistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49E115FE2B9AEE1000470FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E1160B2B9AEE1100470FAD /* Preview Assets.xcassets in Resources */,
+				49E116082B9AEE1100470FAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E1160F2B9AEE1200470FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E116192B9AEE1200470FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49E115FC2B9AEE1000470FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E116062B9AEE1000470FAD /* ContentView.swift in Sources */,
+				49E116042B9AEE1000470FAD /* butt_lifting_assistantApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E1160D2B9AEE1200470FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E116162B9AEE1200470FAD /* butt_lifting_assistantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E116172B9AEE1200470FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E116222B9AEE1200470FAD /* butt_lifting_assistantUITestsLaunchTests.swift in Sources */,
+				49E116202B9AEE1200470FAD /* butt_lifting_assistantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49E116132B9AEE1200470FAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49E115FF2B9AEE1000470FAD /* butt-lifting-assistant */;
+			targetProxy = 49E116122B9AEE1200470FAD /* PBXContainerItemProxy */;
+		};
+		49E1161D2B9AEE1200470FAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49E115FF2B9AEE1000470FAD /* butt-lifting-assistant */;
+			targetProxy = 49E1161C2B9AEE1200470FAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49E116232B9AEE1200470FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49E116242B9AEE1200470FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		49E116262B9AEE1200470FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "butt-lifting-assistant/butt_lifting_assistant.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"butt-lifting-assistant/Preview Content\"";
+				DEVELOPMENT_TEAM = RYV456KMZ5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-x663.butt-lifting-assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		49E116272B9AEE1200470FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "butt-lifting-assistant/butt_lifting_assistant.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"butt-lifting-assistant/Preview Content\"";
+				DEVELOPMENT_TEAM = RYV456KMZ5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-x663.butt-lifting-assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		49E116292B9AEE1200470FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYV456KMZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-x663.butt-lifting-assistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/butt-lifting-assistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/butt-lifting-assistant";
+			};
+			name = Debug;
+		};
+		49E1162A2B9AEE1200470FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYV456KMZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-x663.butt-lifting-assistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/butt-lifting-assistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/butt-lifting-assistant";
+			};
+			name = Release;
+		};
+		49E1162C2B9AEE1200470FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYV456KMZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-x663.butt-lifting-assistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "butt-lifting-assistant";
+			};
+			name = Debug;
+		};
+		49E1162D2B9AEE1200470FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYV456KMZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-x663.butt-lifting-assistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "butt-lifting-assistant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49E115FB2B9AEE1000470FAD /* Build configuration list for PBXProject "butt-lifting-assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E116232B9AEE1200470FAD /* Debug */,
+				49E116242B9AEE1200470FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E116252B9AEE1200470FAD /* Build configuration list for PBXNativeTarget "butt-lifting-assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E116262B9AEE1200470FAD /* Debug */,
+				49E116272B9AEE1200470FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E116282B9AEE1200470FAD /* Build configuration list for PBXNativeTarget "butt-lifting-assistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E116292B9AEE1200470FAD /* Debug */,
+				49E1162A2B9AEE1200470FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E1162B2B9AEE1200470FAD /* Build configuration list for PBXNativeTarget "butt-lifting-assistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E1162C2B9AEE1200470FAD /* Debug */,
+				49E1162D2B9AEE1200470FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49E115F82B9AEE1000470FAD /* Project object */;
+}
